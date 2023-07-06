@@ -1,6 +1,8 @@
 const fs = require('fs/promises')
 const path = require('path')
 
+fs.mkdir(__dirname, 'boys')
+fs.mkdir(__dirname, 'girls')
 
 const boysDirPath = path.join(__dirname, 'boys')
 const girlsDirPath = path.join(__dirname, 'girls')
